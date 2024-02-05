@@ -234,29 +234,6 @@
     </div>
 </div>
         
-        <div id="field-birthplace" class="field birthplace required">
-    <label class="label" for="birthplace_province">
-        <span>Luogo di nascita</span>
-    </label>
-    <div class="control birthplace">
-        <div class="field-left">
-            <select name="birthplace_province" id="birthplace_province" required></select>
-        </div>
-        <div class="field-right">
-            <select name="bo_customer_place_of_birth" id="birthplace" required></select>
-        </div>
-    </div>
-</div>
-<script type="text/x-magento-init">
-    {
-        "#field-birthplace": {
-            "countryFields": {
-                "field1": {"id": "birthplace_province" },
-                "field2": { "id": "birthplace" }
-            }
-        }
-    }
-</script>
 
         
 <div class="field citizenship required">
@@ -1389,20 +1366,7 @@
         <input type="text" required name="institute_name" value="">
     </div>
 </div>
-<div id="field-institute" class="field required">
-    <label class="label institute_city institute_city_label" for="institute_city">
-        <span>Città della Scuola o Università</span>
-    </label>
-    <div class="control birthplace">
-        <div class="institute_province field-left">
-            <select name="institute_province" id="institute_province" required></select>
-        </div>
-        <div class="institute_region field-right">
-            <select name="institute_region" id="institute_region" required></select>
-        </div>
-        <input id="institute_city_input" type="hidden" required name="institute_city" value="">
-    </div>
-</div>
+
 <script type="text/x-magento-init">
     {
         "#field-institute": {
